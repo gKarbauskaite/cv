@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Susisiekite su manimi</title>
+</head>
+
+<body>
+  <h1>Mano kontaktiniai duomenys</h1>
+  <p>Telefono numeris 86000000000</p>
+  <p>El. paštas ginte.ka@gmail.com</p>
+  <p>Adresas</p>
+  <hr>
+  <form action="mailto:ginte.ka@gmail.com" method="post" enctype="text/plain">
+    <!--  -->
+    <!--to fill form, first thing you need to do is to make a form
+       and a label next to it-->
+    <label>Jūsų vardas:</label>
+    <input type="text" name="yourName" value=""><br>
+    <!--When you put label,
+      which is going to tell you what other person needs to type in,
+       you have to write <input type="text" name="" value="">-->
+    <label>El. paštas:</label>
+    <input type="email" name="yourEmail" value=""><br>
+    <label>Įveskite žinutę:</label><br>
+    <textarea name="YourTextArea" rows="10" cols="30"></textarea><br>
+    <label>Ar norėtumėte gauti mūsų naujienlaiškį?</label>
+    <input type="checkbox" name="" value=""><br>
+    <input type="submit" name="">
+    <!-- <input type="submit" name=""> is another type of input,
+       only with other function, which is being used to make a submit button-->
+  </form>
+</body>
+
+</html>
