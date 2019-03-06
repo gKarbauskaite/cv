@@ -1,94 +1,177 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Gintes tinklalapis ☺</title>
 
-<head>
-  <meta charset="utf-8">
-  <title>Gintes tinklalapis ☺</title>
-</head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<body>
-  <table cellspacing="20">
-    <tr>
-      <td><img src="Ginte.png" alt="Ginte's picture" width=230></td>
-      <td>
-        <h1>Gintė Karbauskaitė</h1>
-        <p><em>studijuojanti <strong><a href="https://www.kaunokolegija.lt/studiju-programos/grafines-technologijos/">studentė</a></strong></em>.</p>
-        <p>Aš esu puslapių programuotoja. Aš mėgstu kates ir maistą.</p>
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <h3>Išsilavinimas</h3>
-  <ul>
-    <li>Šilalės Dariaus ir Girėno pradinė mokykla</li>
-    <li>Šilalės Dariaus ir Girėno progimnazija</li>
-    <li>Šilalės Simono Gaudėšiaus gimnazija</li>
-  </ul>
-  <h3>Darbo patirtis</h3>
-  <table>
-    <thead>
-      <th>Data</th>
-      <th>Darbas</th>
-    </thead>
-    <tbody>
+  <body>
+    <div class="container">
+      <div class="row mt-3">
+        <div class="col-md-4 text-center">
+          <img class="w-75" src="Ginte.png" alt="Ginte's picture" />
+        </div>
+        <div class="col-md-8 text-center my-auto">
+          <h1 class="display-4">Gintė Karbauskaitė</h1>
+          <blockquote class="blockquote text-center">
+            <p>"Programuoju, mėgstu maistą ir kates ..."</p>
+            <footer class="blockquote-footer">
+              <cite title="Gintė">Gintė</cite>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+      <h3 class="mt-5">Išsilavinimas</h3>
+      <hr />
+      <table class="table table-hover table-borderless w-75 mx-auto ">
+        <thead class="text-center text-light bg-dark">
+          <tr>
+            <td width="50%"><strong>Mokykla</strong></td>
+            <td width="50%"><strong>Data</strong></td>
+          </tr>
+        </thead>
+        <tbody class="text-center">
+          <tr>
+            <td>Šilalės Dariaus ir Girėno pradinė mokykla</td>
+            <td>2006 - 2010</td>
+          </tr>
+          <tr>
+            <td>Šilalės Dariaus ir Girėno progimnazija</td>
+            <td>2010 - 2014</td>
+          </tr>
+          <tr>
+            <td>Šilalės Simono Gaudėšiaus gimnazija</td>
+            <td>2014 - 2018</td>
+          </tr>
+          <tr>
+            <td>Kauno Kolegija, Multimedijų Technologijos</td>
+            <td>2018 -</td>
+          </tr>
+        </tbody>
+      </table>
 
-    </tbody>
-    <tfoot>
-
-    </tfoot>
-    <tr>
-      <!-- table row is used to make a cell-type paragraph in the table -->
-      <td>2010-2012</td>
-      <!-- shows one side of the cell which you can explain in other <td></td> cell -->
-      <td>Nedirbau. Mokiausi</td>
-      <!-- explains the first cell of the table -->
-    </tr>
-    <tr>
-      <!-- is needed for another cell of the same table-->
-      <td>2012-2014</td>
-      <td>Nedirbau. Mokiausi</td>
-    </tr>
-  </table>
-  <h3>Įgūdžiai</h3>
-  <table>
-    <tr>
-      <td>
-        <table>
-          <tr>
-            <td>Javascript</td>
-            <td>⭐⭐⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>C++</td>
-            <td>⭐⭐⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>Ruby</td>
-            <td>⭐⭐⭐⭐⭐</td>
-          </tr>
-        </table>
-      </td>
-      <td>
-        <table>
-          <tr>
-            <td>Javascript</td>
-            <td>⭐⭐⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>C++</td>
-            <td>⭐⭐⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>Ruby</td>
-            <td>⭐⭐⭐⭐⭐</td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
-  <hr>
-</body>
-
+      <h3 class="mt-3">Įgūdžiai</h3>
+      <hr />
+      <div class="row mt-4">
+        <div class="row w-75">
+          <div class="col-md-6 text-right">
+            <p>HTML5</p>
+          </div>
+          <div class="col-md-6">
+            <div class="progress">
+              <div class="progress-bar bg-dark" style="width: 80%"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row w-75">
+          <div class="col-md-6 text-right">
+            <p>CSS3</p>
+          </div>
+          <div class="col-md-6">
+            <div class="progress">
+              <div class="progress-bar bg-dark" style="width: 60%"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row w-75">
+          <div class="col-md-6 text-right">
+            <p>BOOTSTRAP4</p>
+          </div>
+          <div class="col-md-6">
+            <div class="progress">
+              <div class="progress-bar bg-dark" style="width: 43%"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row w-75">
+          <div class="col-md-6 text-right">
+            <p>JAVASCRIPT</p>
+          </div>
+          <div class="col-md-6">
+            <div class="progress">
+              <div class="progress-bar bg-dark" style="width: 15%"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row w-75">
+          <div class="col-md-6 text-right">
+            <p>ADOBE ILLUSTRATOR</p>
+          </div>
+          <div class="col-md-6">
+            <div class="progress">
+              <div class="progress-bar bg-dark" style="width: 35%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h3 class="mt-3">Susisiekite su manimi</h3>
+      <hr />
+      <div class="my-4 mx-auto w-75">
+        <form
+          action="mailto:ginte.kakalut@gmail.com"
+          method="post"
+          enctype="text/plain"
+        >
+          <div class="form-group">
+            <label for="name">Jūsų vardas</label>
+            <input
+              type="text"
+              id="name"
+              placeholder="Prašome įvesti savo vardą"
+              class="form-control"
+            />
+          </div>
+          <div class="form-group">
+            <label for="name">Jūsų el. paštas</label>
+            <input
+              type="text"
+              id="name"
+              placeholder="Prašome įvesti savo el. paštą"
+              class="form-control"
+            />
+          </div>
+          <div class="form-group">
+            <label for="name">Įveskite žinutę</label>
+            <textarea
+              type="text"
+              id="name"
+              placeholder="Įveskite žinutę..."
+              class="form-control"
+              rows="3"
+            ></textarea>
+          </div>
+          <div class="row">
+            <input
+              class="btn btn-lg btn-outline-dark mx-auto"
+              value="Išsiųsti"
+              type="submit"
+            />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
 </html>
-<strong><a href="hobbies.html">Mano hobiai</a></strong>
-<strong><a href="Contact-me.html">Susisiekite su manimi</a></strong>
+
+<script
+  src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+  integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+  integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+  crossorigin="anonymous"
+></script>
